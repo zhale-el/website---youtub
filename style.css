@@ -255,6 +255,21 @@ button:focus-visible {
   color: var(--clr-accent-400);
 }
 
+/* social list */
+
+.social-list {
+  display: flex;
+  gap: var(--size-300);
+}
+.social-icon {
+  width: var(--size-600);
+  fill: var(--clr-neutral-100);
+  aspect-ratio: 1;
+}
+.social-list a:is(:hover, :focus) .social-icon {
+  fill: var(--clr-accent-400);
+}
+
 /* cta  */
 
 .cta {

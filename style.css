@@ -240,6 +240,21 @@ button:focus-visible {
   }
 }
 
+/* footer navigation */
+
+.footer-nav {
+  columns: 2;
+}
+.footer-nav a {
+  color: var(--clr-neutral-100);
+  text-decoration: none;
+}
+
+.footer-nav a:hover,
+.footer-nav a:focus {
+  color: var(--clr-accent-400);
+}
+
 /* cta  */
 
 .cta {

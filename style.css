@@ -276,15 +276,16 @@ button:focus-visible {
   .primary-footer-wrapper {
     grid-template-areas: "logo-social nav form";
   }
+  .primary-footer-logo-social {
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--size-700);
+  }
 }
 
 @media (max-width: 50em) {
   .primary-footer-wrapper > * {
     margin-inline: auto;
-  }
-  .primary-footer-logo-social {
-    align-items: flex-start;
-    gap: var(--size-700);
   }
 }
 
